@@ -1,0 +1,56 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Laravel / runtime
+/vendor/
+/node_modules/
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/framework/testing/*
+/bootstrap/cache/*
+
+# Runtime-generated files
+.phpunit.result.cache
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Populated database snapshots
+/DB/digikash.sql
+
+# Laravel storage - runtime and user-generated files
+/storage/app/*
+!/storage/app/.gitignore
+!/storage/app/public/
+!/storage/app/public/.gitignore
+/storage/app/public/*
+!/storage/app/public/.gitignore
+/storage/app/private/*
+!/storage/app/private/.gitignore
+
+/storage/framework/*
+!/storage/framework/.gitignore
+
+/storage/logs/*
+!/storage/logs/.gitignore

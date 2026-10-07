@@ -1,0 +1,887 @@
+{
+  "page": {
+    "title": {
+      "en": "Home",
+      "es": "Hogar"
+    },
+    "slug": "/",
+    "type": "static",
+    "breadcrumb": null,
+    "is_breadcrumb": false,
+    "is_active": true
+  },
+  "component_ids": [
+    1,
+    2,
+    4,
+    33,
+    32,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    29
+  ],
+  "components": [
+    {
+      "source_id": 1,
+      "component_icon": "general/static/component/banner.png",
+      "component_name": "Banner",
+      "component_key": "banner",
+      "content_data": {
+        "heading": {
+          "en": "Manage Your Money More Quickly",
+          "es": "Administra tu dinero más rápido"
+        },
+        "button_url": "/user/dashboard",
+        "subheading": {
+          "en": "Welcome to DigiKash Wallet",
+          "es": "Bienvenido a la billetera DigiKash"
+        },
+        "button_text": {
+          "en": "My Account",
+          "es": "Mi Billetera"
+        },
+        "description": {
+          "en": "Send, receive, deposit, request, invest, and exchange money globally in multiple currencies — easily, quickly, and safely, with great rates and low fees.",
+          "es": "Envía, recibe, deposita, solicita, invierte y cambia dinero globalmente en múltiples monedas, de manera fácil, rápida y segura, con excelentes tarifas y bajas comisiones."
+        },
+        "shape_image_1": "images/2025/04/10/20250410_060504_frame_1_YXLr.png",
+        "shape_image_2": "images/2025/04/10/20250410_060504_frame_2_P1Qe.png",
+        "shape_image_3": "images/2025/04/10/20250410_060444_frame_3_T2YI.png",
+        "hero_main_image": "images/2025/04/10/20250410_055802_hero_1_Q0SS.png",
+        "background_image": "images/2025/04/10/20250410_055802_hero_bg_SfUo.png"
+      },
+      "type": "static",
+      "theme": "classic",
+      "sort": 1,
+      "repeated_content": false,
+      "is_active": true,
+      "repeated_items": []
+    },
+    {
+      "source_id": 2,
+      "component_icon": "general/static/component/about.png",
+      "component_name": "About",
+      "component_key": "about",
+      "content_data": {
+        "heading": {
+          "en": "Why Choose DigiKash",
+          "es": "Por qué elegir DigiKash"
+        },
+        "button_url": "/user/wallet/list",
+        "main_image": "images/2025/04/10/20250410_072254_a_1_OtCO.png",
+        "subheading": {
+          "en": "About DigiKash",
+          "es": "Sobre DigiKash"
+        },
+        "button_text": {
+          "en": "Open Wallet",
+          "es": "Abrir Billetera"
+        },
+        "description": {
+          "en": "Manage your money easily with DigiKash. Send, receive, and exchange funds instantly in multiple currencies — all with low fees and great rates.",
+          "es": "Administra tu dinero fácilmente con DigiKash. Envía, recibe y cambia fondos al instante en múltiples monedas, con bajas comisiones y excelentes tarifas."
+        },
+        "bg_shape_image": "images/2025/04/10/20250410_072335_bg_shape_06d9.png",
+        "title_bar_image": "images/2025/04/10/20250410_072622_title_bar_8RzP.png",
+        "content_shape_image": "images/2025/04/10/20250410_072425_content_shape_HCJ4.png",
+        "about_tool_shape_image": "images/2025/04/10/20250410_072604_tool_shape_Evex.png",
+        "additional_description": {
+          "en": "DigiKash empowers you to control your finances with ease — send, store, and spend globally with unmatched speed and security.",
+          "es": "DigiKash te permite controlar tus finanzas con facilidad: envía, guarda y gasta a nivel global con velocidad y seguridad incomparables."
+        }
+      },
+      "type": "static",
+      "theme": "classic",
+      "sort": 2,
+      "repeated_content": true,
+      "is_active": true,
+      "repeated_items": [
+        [
+          {
+            "about_text": {
+              "en": "Experience fast and secure money transfers across the globe.",
+              "es": "Experimenta transferencias de dinero rápidas y seguras en todo el mundo"
+            },
+            "about_title": {
+              "en": "Secure Transactions",
+              "es": "Transacciones Seguras"
+            },
+            "about_icon_class": "fas fa-hand-holding-dollar"
+          }
+        ],
+        [
+          {
+            "about_text": {
+              "en": "Access your funds anytime, anywhere with multi-currency support.",
+              "es": "Accede a tus fondos en todo momento con soporte multimoneda."
+            },
+            "about_title": {
+              "en": "Global Wallet Access",
+              "es": "Acceso Global a la Billetera"
+            },
+            "about_icon_class": "fas fa-wallet"
+          }
+        ]
+      ]
+    },
+    {
+      "source_id": 4,
+      "component_icon": "general/static/component/feature.png",
+      "component_name": "Feature",
+      "component_key": "feature",
+      "content_data": {
+        "heading": {
+          "en": "Special Key Features",
+          "es": "Características Clave Especiales"
+        },
+        "subheading": {
+          "en": "Features",
+          "es": "Características"
+        },
+        "title_bar_image": "images/2025/04/10/20250410_164848_title_bar_EDPV.png"
+      },
+      "type": "static",
+      "theme": "classic",
+      "sort": 3,
+      "repeated_content": true,
+      "is_active": true,
+      "repeated_items": [
+        [
+          {
+            "feature_text": {
+              "en": "Enjoy a smooth, consistent wallet experience across all devices with DigiKash, ensuring reliability and efficiency every time.",
+              "es": "Disfruta de una experiencia de billetera fluida y consistente en todos los dispositivos con DigiKash, garantizando confiabilidad y eficiencia en todo momento."
+            },
+            "feature_title": {
+              "en": "Stable Usability",
+              "es": "Usabilidad Estable"
+            },
+            "feature_icon_class": "icon-icon7"
+          }
+        ],
+        [
+          {
+            "feature_text": {
+              "en": "Easily create and manage multiple wallets for personal savings, business transactions, and global investments through DigiKash.",
+              "es": "Crea y gestiona fácilmente múltiples carteras para ahorros personales, transacciones comerciales e inversiones globales con DigiKash."
+            },
+            "feature_title": {
+              "en": "Different Wallet",
+              "es": "Cartera Diferente"
+            },
+            "feature_icon_class": "icon-icon8"
+          }
+        ],
+        [
+          {
+            "feature_text": {
+              "en": "Send, receive, and exchange money in multiple currencies instantly, all while enjoying the best rates through DigiKash.",
+              "es": "Envía, recibe e intercambia dinero en múltiples monedas al instante, disfrutando siempre de las mejores tarifas con DigiKash."
+            },
+            "feature_title": {
+              "en": "Multiple Currency",
+              "es": "Moneda Múltiple"
+            },
+            "feature_icon_class": "icon-icon9"
+          }
+        ],
+        [
+          {
+            "feature_text": {
+              "en": "Experience ultra-fast money transfers worldwide with minimal fees, powered by DigiKash’s cutting-edge technology.",
+              "es": "Experimenta transferencias de dinero ultrarrápidas en todo el mundo con tarifas mínimas, impulsadas por la tecnología avanzada de DigiKash."
+            },
+            "feature_title": {
+              "en": "Fast Transaction",
+              "es": "Transacción Rápida"
+            },
+            "feature_icon_class": "icon-icon9"
+          }
+        ],
+        [
+          {
+            "feature_text": {
+              "en": "Keep your money safe with DigiKash, where every transaction is protected by advanced, bank-grade security protocols.",
+              "es": "Mantén tu dinero seguro con DigiKash, donde cada transacción está protegida por protocolos de seguridad avanzados de nivel bancario."
+            },
+            "feature_title": {
+              "en": "Safe Transaction",
+              "es": "Transacción Segura"
+            },
+            "feature_icon_class": "icon-icon11"
+          }
+        ],
+        [
+          {
+            "feature_text": {
+              "en": "Enjoy flexible deposit and withdrawal options with DigiKash, supporting multiple secure methods for your convenience.",
+              "es": "Disfruta de opciones flexibles de depósito y retiro con DigiKash, que admite múltiples métodos seguros para tu comodidad."
+            },
+            "feature_title": {
+              "en": "Various Method",
+              "es": "Varios Métodos"
+            },
+            "feature_icon_class": "icon-icon12"
+          }
+        ]
+      ]
+    },
+    {
+      "source_id": 33,
+      "component_icon": null,
+      "component_name": "Wallet Earn",
+      "component_key": "wallet_earn",
+      "content_data": {
+        "heading": {
+          "en": "Put your wallet to work",
+          "es": ""
+        },
+        "subheading": {
+          "en": "Grow your money",
+          "es": ""
+        },
+        "description": {
+          "en": "Stake your funds and earn guaranteed returns. Flexible terms, transparent payouts, zero surprises.",
+          "es": ""
+        }
+      },
+      "type": "static",
+      "theme": "classic",
+      "sort": 4,
+      "repeated_content": false,
+      "is_active": true,
+      "repeated_items": []
+    },
+    {
+      "source_id": 32,
+      "component_icon": null,
+      "component_name": "Subscription Plans",
+      "component_key": "subscription_plans",
+      "content_data": {
+        "heading": {
+          "en": "Choose a plan",
+          "es": ""
+        },
+        "subheading": {
+          "en": "Transparent pricing",
+          "es": ""
+        },
+        "description": {
+          "en": "Upgrade or downgrade anytime — no hidden fees, no lock-in.",
+          "es": ""
+        }
+      },
+      "type": "static",
+      "theme": "classic",
+      "sort": 5,
+      "repeated_content": false,
+      "is_active": true,
+      "repeated_items": []
+    },
+    {
+      "source_id": 5,
+      "component_icon": "general/static/component/services.png",
+      "component_name": "Services",
+      "component_key": "service",
+      "content_data": {
+        "heading": {
+          "en": "Our Perfect Solutions",
+          "es": "Nuestras Soluciones Perfectas"
+        },
+        "subheading": {
+          "en": "Our Services",
+          "es": "Nuestros Servicios"
+        },
+        "title_bar_image": "images/2025/04/10/20250410_183109_title_bar_IAxb.png"
+      },
+      "type": "static",
+      "theme": "classic",
+      "sort": 6,
+      "repeated_content": true,
+      "is_active": true,
+      "repeated_items": [
+        [
+          {
+            "service_text": {
+              "en": "Send money instantly between DigiKash wallets worldwide with just a few clicks.",
+              "es": "Envía dinero instantáneamente entre billeteras DigiKash en todo el mundo con solo unos clics."
+            },
+            "service_image": "images/2025/04/10/20250410_183859_01_6Eac.jpg",
+            "service_title": {
+              "en": "Instant Wallet Transfers",
+              "es": "Transferencias Instantáneas de Billetera"
+            }
+          }
+        ],
+        [
+          {
+            "service_text": {
+              "en": "Operate with various global currencies and easily convert funds within DigiKash.",
+              "es": "Opera con diversas monedas globales y convierte fondos fácilmente dentro de DigiKash."
+            },
+            "service_image": "images/2025/04/10/20250410_183908_02_Nd1O.jpg",
+            "service_title": {
+              "en": "Multi-Currency Support",
+              "es": "Soporte Multimoneda"
+            }
+          }
+        ],
+        [
+          {
+            "service_text": {
+              "en": "Accept and make secure online payments for goods and services using DigiKash.",
+              "es": "Acepta y realiza pagos en línea seguros para bienes y servicios utilizando DigiKash."
+            },
+            "service_image": "images/2025/04/10/20250410_183921_03_RLju.jpg",
+            "service_title": {
+              "en": "Secure Online Payments",
+              "es": "Pagos en Línea Seguros"
+            }
+          }
+        ],
+        [
+          {
+            "service_text": {
+              "en": "Grow your business with DigiKash’s flexible and secure merchant payment solutions.",
+              "es": "Haz crecer tu negocio con las soluciones de pago flexibles y seguras de DigiKash."
+            },
+            "service_image": "images/2025/04/10/20250410_190030_19199349_4V2O.jpg",
+            "service_title": {
+              "en": "Merchant Payment Solutions",
+              "es": "Soluciones de Pago para Comerciantes"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "source_id": 6,
+      "component_icon": "general/static/component/work_process.png",
+      "component_name": "Work Process",
+      "component_key": "work_process",
+      "content_data": {
+        "heading": {
+          "en": "Our Process",
+          "es": "Nuestro Proceso"
+        },
+        "subheading": {
+          "en": "How It Works",
+          "es": "Cómo Funciona"
+        },
+        "title_bar_image": "images/2025/04/11/20250411_015314_title_bar_qAs5.png",
+        "line_shape_image": "images/2025/04/11/20250411_015314_line_41DR.png"
+      },
+      "type": "static",
+      "theme": "classic",
+      "sort": 7,
+      "repeated_content": true,
+      "is_active": true,
+      "repeated_items": [
+        [
+          {
+            "step_title": {
+              "en": "Choose a Service",
+              "es": "Elige un Servicio"
+            },
+            "step_icon_class": "icon-icon1",
+            "step_description": {
+              "en": "Select the service you need from our platform with ease.",
+              "es": "Selecciona el servicio que necesitas desde nuestra plataforma con facilidad."
+            }
+          }
+        ],
+        [
+          {
+            "step_title": {
+              "en": "Define Requirements",
+              "es": "Define Requisitos"
+            },
+            "step_icon_class": "icon-icon2",
+            "step_description": {
+              "en": "Specify the requirements to help us tailor the solution for you.",
+              "es": "Especifica los requisitos para que podamos adaptar la solución para ti."
+            }
+          }
+        ],
+        [
+          {
+            "step_title": {
+              "en": "Request a Meeting",
+              "es": "Solicitar una Reunión"
+            },
+            "step_icon_class": "icon-icon3",
+            "step_description": {
+              "en": "Schedule a meeting with our team to discuss your project details.",
+              "es": "Programa una reunión con nuestro equipo para discutir los detalles de tu proyecto."
+            }
+          }
+        ],
+        [
+          {
+            "step_title": {
+              "en": "Final Solution Delivery",
+              "es": "Entrega de la Solución Final"
+            },
+            "step_icon_class": "icon-icon4",
+            "step_description": {
+              "en": "Receive the final solution that meets your expectations.",
+              "es": "Recibe la solución final que cumpla con tus expectativas."
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "source_id": 7,
+      "component_icon": "general/static/component/offer.png",
+      "component_name": "Offer & Counter",
+      "component_key": "offer",
+      "content_data": {
+        "button_url": "/register",
+        "button_text": {
+          "en": "Sign Up Now",
+          "es": "Regístrate Ahora"
+        },
+        "offer_title": {
+          "en": "Get the Bonus Offer $99",
+          "es": "Obtén la Oferta de Bono de $99"
+        },
+        "background_image": "images/2025/04/11/20250411_070408_cta_offer_bg_BJfW.jpg"
+      },
+      "type": "static",
+      "theme": "classic",
+      "sort": 8,
+      "repeated_content": true,
+      "is_active": true,
+      "repeated_items": [
+        [
+          {
+            "counter_title": {
+              "en": "Total User",
+              "es": "Total de Usuarios"
+            },
+            "counter_number": "25623",
+            "counter_prefix": "",
+            "counter_suffix": ""
+          }
+        ],
+        [
+          {
+            "counter_title": {
+              "en": "Total Money Sent",
+              "es": "Total de Dinero Enviado"
+            },
+            "counter_number": "3.5",
+            "counter_prefix": "$",
+            "counter_suffix": "M"
+          }
+        ],
+        [
+          {
+            "counter_title": {
+              "en": "Total Received",
+              "es": "Total Recibido"
+            },
+            "counter_number": "6.5",
+            "counter_prefix": "$",
+            "counter_suffix": "M"
+          }
+        ],
+        [
+          {
+            "counter_title": {
+              "en": "Daily Transaction",
+              "es": "Transacciones Diarias"
+            },
+            "counter_number": "59623",
+            "counter_prefix": "",
+            "counter_suffix": ""
+          }
+        ]
+      ]
+    },
+    {
+      "source_id": 8,
+      "component_icon": "general/static/component/special-feature.png",
+      "component_name": "Special Feature",
+      "component_key": "special_feature",
+      "content_data": {
+        "heading": {
+          "en": "Exploring Our Special Features",
+          "es": "Explorando Nuestras Funciones Especiales"
+        },
+        "subheading": {
+          "en": "Special Features",
+          "es": "Funciones Especiales"
+        },
+        "description": {
+          "en": "Easily manage your money, transfer securely, and track all transactions with real-time settlement and multi-currency support.",
+          "es": "Administra fácilmente tu dinero, transfiere de forma segura y rastrea todas las transacciones con liquidaciones en tiempo real y soporte multimoneda."
+        },
+        "title_bar_image": "images/2025/04/11/20250411_123549_title_bar_7LBF.png",
+        "feature_center_image": "images/2025/04/11/20250411_122827_feature_image_qsKq.jpg"
+      },
+      "type": "static",
+      "theme": "classic",
+      "sort": 9,
+      "repeated_content": true,
+      "is_active": true,
+      "repeated_items": [
+        [
+          {
+            "feature_icon": "images/2025/04/11/20250411_123558_icon1_Y2MR.png",
+            "feature_text": {
+              "en": "Easily transfer money between your wallets and bank accounts securely.",
+              "es": "Transfiere dinero fácilmente entre tus billeteras y cuentas bancarias de forma segura."
+            },
+            "feature_title": {
+              "en": "Account Transfers",
+              "es": "Transferencias de Cuenta"
+            }
+          }
+        ],
+        [
+          {
+            "feature_icon": "images/2025/04/11/20250411_123605_icon2_bv3D.png",
+            "feature_text": {
+              "en": "Settle your transactions flexibly at your convenience with real-time tracking.",
+              "es": "Liquida tus transacciones de manera flexible y con seguimiento en tiempo real."
+            },
+            "feature_title": {
+              "en": "Flexible Settlement",
+              "es": "Liquidación Flexible"
+            }
+          }
+        ],
+        [
+          {
+            "feature_icon": "images/2025/04/11/20250411_123612_icon3_FBbg.png",
+            "feature_text": {
+              "en": "Quickly match your transactions for complete financial clarity and reports.",
+              "es": "Conciliación rápida de transacciones para claridad y reportes financieros."
+            },
+            "feature_title": {
+              "en": "Easy Reconciliation",
+              "es": "Conciliación Fácil"
+            }
+          }
+        ],
+        [
+          {
+            "feature_icon": "images/2025/04/11/20250411_123619_icon4_Ay3L.png",
+            "feature_text": {
+              "en": "Multiple payment channels to send and receive funds globally with ease.",
+              "es": "Múltiples canales de pago para enviar y recibir fondos globalmente."
+            },
+            "feature_title": {
+              "en": "Payment Channel Options",
+              "es": "Opciones de Canales de Pago"
+            }
+          }
+        ],
+        [
+          {
+            "feature_icon": "images/2025/04/11/20250411_123627_icon5_1Bfh.png",
+            "feature_text": {
+              "en": "Settle payments safely with our bank-grade encrypted settlement network.",
+              "es": "Liquida pagos de forma segura con nuestra red de cifrado de nivel bancario."
+            },
+            "feature_title": {
+              "en": "Secure Settlements",
+              "es": "Liquidaciones Seguras"
+            }
+          }
+        ],
+        [
+          {
+            "feature_icon": "images/2025/04/11/20250411_123634_icon6_DdCm.png",
+            "feature_text": {
+              "en": "Test all transactions risk-free with our fully functional sandbox mode.",
+              "es": "Prueba todas las transacciones sin riesgo con nuestro modo sandbox funcional."
+            },
+            "feature_title": {
+              "en": "Fully Featured Sandbox",
+              "es": "Sandbox Completamente Funcional"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "source_id": 9,
+      "component_icon": "general/static/component/testimonial.png",
+      "component_name": "Testimonial",
+      "component_key": "testimonial",
+      "content_data": {
+        "heading": {
+          "en": "What People Say About DigiKash",
+          "es": "Lo que la gente dice sobre DigiKash"
+        },
+        "subheading": {
+          "en": "Our Testimonials",
+          "es": "Nuestros Testimonios"
+        },
+        "title_bar_image": "images/2025/04/11/20250411_132416_title_bar_5ZSI.png"
+      },
+      "type": "static",
+      "theme": "classic",
+      "sort": 10,
+      "repeated_content": true,
+      "is_active": true,
+      "repeated_items": [
+        [
+          {
+            "rating": "5",
+            "client_name": {
+              "en": "Kristin Watson",
+              "es": "Kristin Watson"
+            },
+            "client_image": "images/2025/04/11/20250411_133154_client1_ubBg.jpg",
+            "comment_text": {
+              "en": "Using DigiKash has made my international transactions effortless and fast.",
+              "es": "Usar DigiKash ha hecho que mis transacciones internacionales sean fáciles y rápidas."
+            },
+            "client_position": {
+              "en": "Web Designer",
+              "es": "Diseñador Web"
+            }
+          }
+        ],
+        [
+          {
+            "rating": "4",
+            "client_name": {
+              "en": "Brooklyn Simmons",
+              "es": "Brooklyn Simmons"
+            },
+            "client_image": "images/2025/04/11/20250411_133220_client2_ZQos.jpg",
+            "comment_text": {
+              "en": "A reliable platform to manage and send money worldwide, highly recommended!",
+              "es": "Una plataforma confiable para gestionar y enviar dinero en todo el mundo, ¡muy recomendada!"
+            },
+            "client_position": {
+              "en": "App Developer",
+              "es": "Desarrollador de Aplicaciones"
+            }
+          }
+        ],
+        [
+          {
+            "rating": "4",
+            "client_name": {
+              "en": "Darlene Robertson",
+              "es": "Darlene Robertson"
+            },
+            "client_image": "images/2025/04/11/20250411_133227_client3_U5Uj.jpg",
+            "comment_text": {
+              "en": "The best wallet app I have ever used — smooth experience and strong security.",
+              "es": "La mejor aplicación de billetera que he usado: experiencia fluida y gran seguridad."
+            },
+            "client_position": {
+              "en": "Freelancer",
+              "es": "Freelancer"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "source_id": 10,
+      "component_icon": "general/static/component/team.png",
+      "component_name": "Team",
+      "component_key": "team",
+      "content_data": {
+        "heading": {
+          "en": "DigiKash Expert Team Members",
+          "es": "Miembros Expertos del Equipo de DigiKash"
+        },
+        "subheading": {
+          "en": "Our Experts",
+          "es": "Nuestros Expertos"
+        },
+        "title_bar_image": "images/2025/04/11/20250411_134907_title_bar_wEBm.png"
+      },
+      "type": "static",
+      "theme": "classic",
+      "sort": 11,
+      "repeated_content": true,
+      "is_active": true,
+      "repeated_items": [
+        [
+          {
+            "name": {
+              "en": "Darlene Robertson",
+              "es": "Darlene Robertson"
+            },
+            "team_image": "images/2025/04/11/20250411_134922_team1_Ma8U.jpg",
+            "designation": {
+              "en": "Financial Advisor",
+              "es": "Asesora Financiera"
+            },
+            "twitter_url": "https://twitter.com/darlene",
+            "facebook_url": "https://facebook.com/darlene",
+            "linkedin_url": "https://linkedin.com/in/darlene",
+            "pinterest_url": "https://pinterest.com/darlene"
+          }
+        ],
+        [
+          {
+            "name": {
+              "en": "Leslie Alexander",
+              "es": "Leslie Alexander"
+            },
+            "team_image": "images/2025/04/11/20250411_134929_team2_8O92.jpg",
+            "designation": {
+              "en": "Account Manager",
+              "es": "Gerente de Cuentas"
+            },
+            "twitter_url": "https://twitter.com/leslie",
+            "facebook_url": "https://facebook.com/leslie",
+            "linkedin_url": "https://linkedin.com/in/leslie",
+            "pinterest_url": "https://pinterest.com/leslie"
+          }
+        ],
+        [
+          {
+            "name": {
+              "en": "Ralph Edwards",
+              "es": "Ralph Edwards"
+            },
+            "team_image": "images/2025/04/11/20250411_134935_team3_S0Un.jpg",
+            "designation": {
+              "en": "Payment Solutions Expert",
+              "es": "Experto en Soluciones de Pago"
+            },
+            "twitter_url": "https://twitter.com/ralph",
+            "facebook_url": "https://facebook.com/ralph",
+            "linkedin_url": "https://linkedin.com/in/ralph",
+            "pinterest_url": "https://pinterest.com/ralph"
+          }
+        ]
+      ]
+    },
+    {
+      "source_id": 11,
+      "component_icon": "general/static/component/blog.png",
+      "component_name": "Blog",
+      "component_key": "blog",
+      "content_data": {
+        "heading": {
+          "en": "Our Latest Blog Posts",
+          "es": "Nuestras Últimas Entradas de Blog"
+        },
+        "button_url": "/blog",
+        "subheading": {
+          "en": "Our Blog",
+          "es": "Nuestro Blog"
+        },
+        "button_text": {
+          "en": "View All Blogs",
+          "es": "Ver Todos los Blogs"
+        },
+        "title_bar_image": "images/2025/04/11/20250411_145046_title_bar_cZ0e.png"
+      },
+      "type": "static",
+      "theme": "classic",
+      "sort": 12,
+      "repeated_content": false,
+      "is_active": true,
+      "repeated_items": []
+    },
+    {
+      "source_id": 13,
+      "component_icon": "general/static/component/contact.png",
+      "component_name": "Contact",
+      "component_key": "contact",
+      "content_data": {
+        "heading": {
+          "en": "Let’s Get in Touch",
+          "es": "Pongámonos en contacto"
+        },
+        "subheading": {
+          "en": "Contact Us",
+          "es": "Contáctanos"
+        },
+        "contact_image": "images/2025/04/13/20250413_181952_c1_MWgM.jpg",
+        "title_bar_image": "images/2025/04/13/20250413_181952_title_bar_Hti0.png"
+      },
+      "type": "static",
+      "theme": "classic",
+      "sort": 13,
+      "repeated_content": false,
+      "is_active": true,
+      "repeated_items": []
+    },
+    {
+      "source_id": 14,
+      "component_icon": "general/static/component/payment.png",
+      "component_name": "Payment Partners",
+      "component_key": "payment_partner",
+      "content_data": {
+        "section_heading": {
+          "en": "Our Payment Partners",
+          "es": "Nuestros socios de pago"
+        }
+      },
+      "type": "static",
+      "theme": "classic",
+      "sort": 14,
+      "repeated_content": false,
+      "is_active": true,
+      "repeated_items": []
+    },
+    {
+      "source_id": 29,
+      "component_icon": "general/static/component/subscribed.png",
+      "component_name": "Subscribed",
+      "component_key": "subscribed",
+      "content_data": {
+        "heading": {
+          "en": "Get Subscribed Today!",
+          "es": "¡Suscríbete hoy!"
+        },
+        "button_text": {
+          "en": "Subscribe",
+          "es": "Suscribirse"
+        },
+        "email_image": "images/2025/04/14/20250414_101517_email_xhcQ.png",
+        "small_title": {
+          "en": "Don’t Miss Our Future Updates!",
+          "es": "¡No te pierdas nuestras futuras actualizaciones!"
+        },
+        "dot_shape_image": "images/2025/04/14/20250414_101517_dot_shape_uPFR.png"
+      },
+      "type": "static",
+      "theme": "classic",
+      "sort": 15,
+      "repeated_content": false,
+      "is_active": true,
+      "repeated_items": []
+    }
+  ],
+  "languages": [
+    {
+      "flag": "images/2025-02-27_15-27-02_united_states_ytAv.png",
+      "name": "English",
+      "code": "en",
+      "is_default": true,
+      "is_rtl": false,
+      "status": true
+    },
+    {
+      "flag": "images/2025-03-21_16-49-25_spain_TehZ.png",
+      "name": "Spain",
+      "code": "es",
+      "is_default": false,
+      "is_rtl": false,
+      "status": true
+    }
+  ]
+}
