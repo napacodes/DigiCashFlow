@@ -73,6 +73,9 @@
                             ? $holder->business->country
                             : $holder->country;
                         $compat      = $providers->filter(fn ($p) => $p->supportsCountry($chCountry));
+                        $holderRole  = $holder->user->role;
+                        $roleColor   = $holderRole?->color() ?? 'secondary';
+                        $roleTitle   = $holderRole?->title() ?? __('Unknown role');
                     @endphp
                     <tr>
                         <td>
@@ -80,7 +83,7 @@
                                 <img src="{{ $holder->user->avatar_alt }}" alt="{{ $holder->user->name ?? '-' }}" loading="lazy">
                                 <div>
                                     <a href="{{ route('admin.user.manage', $holder->user->username) }}">{{ $holder->user->name }}</a>
-                                    <span class="badge bg-{{ $holder->user->role->color() }}">{{ $holder->user->role->title() }}</span>
+                                    <span class="badge bg-{{ $roleColor }}">{{ $roleTitle }}</span>
                                 </div>
                             </div>
                         </td>
