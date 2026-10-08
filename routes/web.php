@@ -55,6 +55,7 @@ use App\Http\Controllers\Frontend\WithdrawAccountController;
 use App\Http\Controllers\Frontend\WithdrawController;
 use App\Http\Controllers\Webhook\BitnobWebhookController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Storage;
 
 /*
 |--------------------------------------------------------------------------
@@ -474,6 +475,24 @@ Route::prefix('api-docs')->as('api-docs.')->group(function () {
 */
 
 Route::get('demo-disclosure', DemoDisclosureController::class)->name('demo.disclosure');
+
+// Keep CMS image URLs working on servers that do not process public/.htaccess,
+// such as Laravel's built-in development server.
+Route::get('images/{path}', function (string $path) {
+    $segments = explode('/', $path);
+
+    abort_if(
+        str_contains($path, '\\') || in_array('..', $segments, true) || in_array('.', $segments, true),
+        404
+    );
+
+    $storedPath = 'images/'.$path;
+    $disk = Storage::disk('public');
+
+    abort_unless($disk->exists($storedPath), 404);
+
+    return $disk->response($storedPath);
+})->where('path', '.*')->name('stored-images.show');
 
 /*
 |--------------------------------------------------------------------------
