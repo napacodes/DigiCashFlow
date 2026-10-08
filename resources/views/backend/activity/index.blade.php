@@ -57,6 +57,9 @@
                     @forelse($activities as $activity)
                         @php
                             $avatarData = getUserAvatarDetails($activity->user->first_name, $activity->user->last_name);
+                            $activityRole = $activity->user->role;
+                            $roleColor = $activityRole?->color() ?? 'secondary';
+                            $roleName = $activityRole?->name ?? __('Unknown role');
                         @endphp
                         <tr class="align-middle">
                             <td>
@@ -73,7 +76,7 @@
                                     <div>
                                         <a href="{{ route('admin.user.manage', $activity->user->username) }}" class="text-decoration-none">
                                             {{ $activity->user->name }}
-                                            <span class="badge badge-sm bg-{{ $activity->user->role->color() }}">{{ $activity->user->role->name }}</span>
+                                            <span class="badge badge-sm bg-{{ $roleColor }}">{{ $roleName }}</span>
                                         </a>
                                         <div class="small text-muted text-uppercase">
                                             <a class="text-decoration-none" href="{{ route('admin.user.manage', $activity->user->username) }}">{{ $activity->user->username }}</a>

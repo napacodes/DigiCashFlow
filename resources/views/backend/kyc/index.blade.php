@@ -48,6 +48,11 @@
 								</thead>
 								<tbody>
 								@forelse($kycRequests as $submission)
+                                    @php
+                                        $submissionRole = $submission->user->role;
+                                        $roleColor = $submissionRole?->color() ?? 'secondary';
+                                        $roleTitle = $submissionRole?->title() ?? __('Unknown role');
+                                    @endphp
 									<tr>
 										<td>
 											<div class="d-flex align-items-center">
@@ -62,7 +67,7 @@
 										</td>
 										<td>
 											<div>{{ $submission->kycTemplate->title }}</div>
-											<span class="badge rounded-pill bg-{{ $submission->user->role->color() }}">{{ $submission->user->role->title() }}</span>
+							<span class="badge rounded-pill bg-{{ $roleColor }}">{{ $roleTitle }}</span>
 										</td>
 										<td>
 											<div>{{ $submission->created_at->format('Y-m-d H:i') }}</div>
@@ -104,4 +109,3 @@
 		</div>
 	</div>
 @endsection
-

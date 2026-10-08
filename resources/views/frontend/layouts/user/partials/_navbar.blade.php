@@ -2,7 +2,7 @@
 	use App\Support\UserNavigationBreadcrumbs;
 
 	$authUser = auth()->user();
-	$roleTitle = $authUser->role->title();
+	$roleTitle = $authUser->role?->title() ?? __('Unknown role');
 	$userNavigationBreadcrumbs = UserNavigationBreadcrumbs::forRoute(request()->route()?->getName());
 @endphp
 
