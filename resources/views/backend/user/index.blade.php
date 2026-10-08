@@ -87,6 +87,10 @@
                             @php
                                 $avatarData = getUserAvatarDetails($user->first_name, $user->last_name);
 
+                                $userRole = $user->role;
+                                $roleValue = $userRole?->value ?? 'unknown';
+                                $roleTitle = $userRole?->title() ?? __('Unknown role');
+
 								$kycSubmission = $user->kycSubmission;
 								$kycStatus = $kycSubmission?->status ?? null;
 
@@ -116,8 +120,8 @@
                                             </a>
                                             <div class="admin-users-username">
                                                 <span>{{ '@'.$user->username }}</span>
-                                                <span class="admin-user-role-badge admin-user-role-badge--{{ $user->role->value }}">
-                                                    {{ $user->role->title() }}
+                                                <span class="admin-user-role-badge admin-user-role-badge--{{ $roleValue }}">
+                                                    {{ $roleTitle }}
                                                 </span>
                                             </div>
                                         </div>
